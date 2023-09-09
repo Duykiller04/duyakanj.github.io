@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.trang-chu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trang-chu a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.trang-chu button a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.truy-cap {
+    margin-right: 40px;
+}
+
+.trang-chu button {
+    margin-left: 40px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.trang-chu button:hover {
+    background-color: #0069d9;
+}
+
+.sp-img {
+    height: 60px;
+}
+
+.nd-td {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #444444;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+td {
+    background-color: #ffffff;
+    color: #444444;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+.cn-end-qlsp {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.cn-end-qlsp button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cn-end-qlsp button:hover {
+    background-color: #0069d9;
+}
